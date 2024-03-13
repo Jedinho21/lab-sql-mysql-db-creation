@@ -20,6 +20,8 @@ values
 (5,'DAM41UDN3CHU2WVF6','volvo','V60','2019','green');
 
 
+
+
 INSERT INTO customers (customerID,customer_name,phone_number,email,address,city,state,country,postal_code)
 values 
 (1,'Martin Nkalubo','07731820','martin@gmail.com','1345dg','Najja','Kampala','Uganda','12597'),
@@ -33,8 +35,12 @@ values
 
 INSERT INTO invoices(invoiceID,invoice_number,date,carID,customerID,staffID)
 values 
-(1,'3K096I98581DHSNUP','Volkswagen','Tiguan','2019','Blue'),
-(2,'ZM8G7BEUQZ97IH46V','Peugeot','Rifter','2019','Red'),
-(3,'DAM41UDN3CHU2WVF6','volvo','V60','2019','green');
+(1,'852399038','20180822','1','1','3'),
+(2,'731166526','20181231','3','3','5'),
+(3,'271135104','20190122','2','2','7');
+
+
+
+
 
    
