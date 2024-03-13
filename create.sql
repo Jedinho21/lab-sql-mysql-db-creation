@@ -36,7 +36,6 @@ staff_name VARCHAR(25),
 store VARCHAR (25)
 );
 
-SELECT * FROM lab_mysql.salespersons;
 
 DROP TABLE IF EXISTS invoices;
 
@@ -49,3 +48,5 @@ customerID VARCHAR(10),
 staffID VARCHAR(20)
 );
 SELECT * FROM lab_mysql.invoices;
+
+
